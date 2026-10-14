@@ -1,0 +1,18 @@
+# Brand asset intake and approval checklist
+
+When the approved internal PPT or authorized Creative Hub resource package is provided:
+
+- [ ] Identify corporate ownership and permitted usage in this private GitHub vs approved company storage
+- [ ] Record exact filenames, extensions, dimensions, color profiles and original source URLs
+- [ ] Verify logo variants, clear space and permissions for symbol expressions
+- [ ] Inspect presentation master layouts and slide dimensions
+- [ ] Identify font names and check relevant licences; **do not commit font binaries**
+- [ ] Extract named corporate tokens where unambiguous; reconcile conflicting versions
+- [ ] Review photo and illustration licensing, credit or acknowledgement requirements
+- [ ] Map assets to output types: presentation/newsletter/Power BI/graphic/diagram/web
+- [ ] Record immutable checksums, approved internal asset location, review owner and dated approval
+- [ ] Test generated design outputs and leave `productionApproved=false` until authorized
+
+Assets can remain in corporate SharePoint and be resolved by approved workstation paths. A personal private GitHub repository is not automatically the right storage destination for licensed corporate binaries.
+
+Run `python scripts/audit_asset_catalog.py` to validate the source register.
