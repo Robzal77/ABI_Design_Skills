@@ -1,5 +1,7 @@
 node_modules/
 output/
+brand/local/
+brand/references/**/*.pptx
 __pycache__/
 *.pyc
 .env

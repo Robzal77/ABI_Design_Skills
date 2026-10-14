@@ -10,3 +10,4 @@
 
 9. Before selecting a logo, image, illustration, typeface or theme, consult `brand/asset-catalog.json` and `brand/ASSET_CATALOG.md`. `reference_only` and `restricted_download_pending` are not approved local assets. Do not copy content from Creative Hub based on browsing access alone.
 10. For a true source asset, require documented corporate use rights, approved storage, and an asset-intake record. Do not commit fonts to the repo.
+11. For PPTs with an authorized `brand\local\profile.json`, use the adapter's default ABI and Command Center logos on every slide, with contrasting variants and preserved aspect ratios. Keep this local profile, its original binaries and private reference analysis Git-ignored; a public clone does not include corporate assets.

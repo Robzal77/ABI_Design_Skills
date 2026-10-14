@@ -7,13 +7,13 @@
   "scripts": {
     "pptx": "node engines/pptx.mjs",
     "newsletter": "node engines/newsletter.mjs",
-    "test": "python -m unittest discover -s tests -v"
+    "test": "python -m unittest discover -s tests -v && node --test tests/test_pptx.mjs"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-    "pptxgenjs": "^3.12.0",
-    "mjml": "^4.15.3"
+    "pptxgenjs": "3.12.0",
+    "mjml": "4.15.3"
   }
 }

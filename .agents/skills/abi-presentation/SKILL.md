@@ -10,6 +10,12 @@ Produce editable PowerPoint decks.
 ## Method
 Use npm run pptx -- --brief examples/brief.json --out output/deck.pptx. Keep text editable. Do not claim an internal corporate master has been applied.
 
+The adapter automatically applies a validated `brand\local\profile.json` when
+configured: retain both ABI and Command Center logos on every slide. Keep the
+profile, asset binaries and private intake/design-reference records Git-ignored.
+Missing or changed configured assets must stop generation, not silently remove
+logos. Use native design patterns, not pasted reference screenshots or data.
+
 ## Validation and handoff
 Review each slide in PowerPoint and verify text clipping.
 

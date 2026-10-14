@@ -15,6 +15,39 @@ When the approved internal PPT or authorized Creative Hub resource package is pr
 
 Assets can remain in corporate SharePoint and be resolved by approved workstation paths. A personal private GitHub repository is not automatically the right storage destination for licensed corporate binaries.
 
+## Internal-only PowerPoint profile
+
+Store authorized original PNG assets and the dated intake record under ignored
+`brand\local\`. The default PPTX profile is `brand\local\profile.json`:
+
+```json
+{
+  "schemaVersion": 1,
+  "usageScope": "internal-presentations",
+  "approval": {
+    "status": "approved-for-internal-presentations",
+    "confirmedBy": "Actual authorized reviewer or user confirmation",
+    "confirmedOn": "YYYY-MM-DD"
+  },
+  "logos": {
+    "abi": {
+      "light": {"path": "assets\\abi-light.png", "sha256": "actual file SHA256"},
+      "dark": {"path": "assets\\abi-dark.png", "sha256": "actual file SHA256"}
+    },
+    "commandCenter": {
+      "light": {"path": "assets\\cc-light.png", "sha256": "actual file SHA256"},
+      "dark": {"path": "assets\\cc-dark.png", "sha256": "actual file SHA256"}
+    }
+  }
+}
+```
+
+Paths resolve relative to the profile; absolute approved-storage paths also work.
+Record the private source file, package image member if extracted from a supplied
+deck, immutable checksum and the exact scope of approval in the local intake
+record. This is an asset-use record, not approval of the whole presentation.
+Do not promote this profile or its binary files into the public repository.
+
 Run `python scripts/audit_asset_catalog.py` to validate the source register.
 
 ### Reference PPTX inspected
