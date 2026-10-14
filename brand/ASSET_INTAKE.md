@@ -16,3 +16,6 @@ When the approved internal PPT or authorized Creative Hub resource package is pr
 Assets can remain in corporate SharePoint and be resolved by approved workstation paths. A personal private GitHub repository is not automatically the right storage destination for licensed corporate binaries.
 
 Run `python scripts/audit_asset_catalog.py` to validate the source register.
+
+### Reference PPTX inspected
+The supplied `Reference ppt for ux.pptx` has been inspected and recorded as **design-reference metadata only** at `brand/references/sustainability-cea-brewhub-2026/`. Its actual deck and images have not been committed. The corporate sanctioned master template is not confirmed solely by this reference. Use `scripts/inspect_pptx.py` for future source-file inspections and add approved reference files only after rights review.
