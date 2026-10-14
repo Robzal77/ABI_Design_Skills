@@ -1,0 +1,2 @@
+# Only needed for inspecting editable reference PowerPoint files
+python-pptx>=1.0.2,<2
