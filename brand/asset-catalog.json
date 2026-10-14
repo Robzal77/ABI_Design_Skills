@@ -271,6 +271,23 @@
         "diagrams"
       ],
       "notes": "User will provide. Extract slide masters, logo artwork, dimensions, typography and layout conventions after receipt."
+    },
+    {
+      "id": "approved-deck-reference-sustainability",
+      "category": "internal-example",
+      "title": "User-supplied Sustainability / CEA / BrewHub PPT reference",
+      "sourceUrl": null,
+      "assetStatus": "metadata_extracted_source_not_committed",
+      "rights": "user_confirmed_internal_reference; do_not_publish_raw_deck_or_embedded_assets_without_separate_approval",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Supplied 24-slide deck with 49 layout definitions. Anonymized design metadata: brand/references/sustainability-cea-brewhub-2026/design-analysis.json. Not confirmed as company-wide official master template."
     }
   ]
 }
