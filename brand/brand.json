@@ -24,13 +24,43 @@
     "accent": "#E5B611"
   },
   "typography": {
-    "heading": null,
-    "body": null,
-    "note": "Official type families are not established from the color guide; use accessible system fallbacks in previews."
+    "heading": "Avantt",
+    "body": "Avantt",
+    "fallback": "Arial, sans-serif",
+    "fontFilesIncluded": false,
+    "licenseStatus": "Requires company-supplied approved font access",
+    "source": "https://brandworld.ab-inbev.com/typography"
   },
   "assets": {
     "logo": null,
     "template": null
   },
-  "productionApproved": false
+  "productionApproved": false,
+  "logoUsage": {
+    "variants": [
+      "gold",
+      "black",
+      "white"
+    ],
+    "placement": [
+      "top-left",
+      "bottom sign-off"
+    ],
+    "clearSpace": "Equal around all four sides, measured using symbol",
+    "noStretch": true,
+    "expressiveSymbolRequiresBrandMarketingPermission": true
+  },
+  "accessibility": {
+    "goldGradientText": "black",
+    "blackBackgroundText": [
+      "white",
+      "lightGold",
+      "darkGold"
+    ],
+    "lightGrayText": "black",
+    "lightGoldText": "black",
+    "darkGoldText": "black",
+    "whiteText": "black",
+    "darkGrayText": "black"
+  }
 }
