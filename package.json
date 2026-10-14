@@ -1,0 +1,19 @@
+{
+  "name": "abi-design-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ABI visual production adapters",
+  "scripts": {
+    "pptx": "node engines/pptx.mjs",
+    "newsletter": "node engines/newsletter.mjs",
+    "test": "python -m unittest discover -s tests -v"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "mjml": "^4.15.3"
+  }
+}

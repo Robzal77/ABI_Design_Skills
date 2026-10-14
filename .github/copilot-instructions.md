@@ -1,0 +1,1 @@
+Apply AGENTS.md. Skills in .agents/skills are reusable for GitHub Copilot CLI; read abi-creative-director, the requested specialist skill and abi-visual-qa. Run supported generators, label all limitations, and request human review before publication.

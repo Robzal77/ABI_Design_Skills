@@ -1,0 +1,17 @@
+import fs from "node:fs";
+import path from "node:path";
+import pptxgen from "pptxgenjs";
+const flag=(n,d)=>{let i=process.argv.indexOf(n);return i>=0?process.argv[i+1]:d};
+const brief=JSON.parse(fs.readFileSync(flag("--brief","examples/brief.json"),"utf8"));
+if(!brief.title||!brief.headline||!Array.isArray(brief.points))throw Error("Invalid brief");
+const colors=JSON.parse(fs.readFileSync("brand/brand.json","utf8")).colors;
+const pptx=new pptxgen(); pptx.layout="LAYOUT_WIDE";pptx.author="ABI Design Skills";
+pptx.subject="Reference-based editable preview, internal template approval pending";
+const s=pptx.addSlide();s.background={color:"FFFFFF"};
+s.addShape(pptx.ShapeType.rect,{x:0,y:0,w:13.333,h:0.18,line:{color:"E5B611"},fill:{color:"E5B611"}});
+s.addText(String(brief.title).slice(0,90),{x:0.75,y:0.62,w:11.8,h:0.56,fontFace:"Arial",fontSize:17,color:"000000",bold:true,margin:0});
+s.addText(String(brief.headline).slice(0,110),{x:0.75,y:1.37,w:11.8,h:1.48,fontFace:"Arial",fontSize:33,color:"000000",bold:true,breakLine:false,margin:0});
+(brief.points||[]).slice(0,4).forEach((p,i)=>{s.addShape(pptx.ShapeType.ellipse,{x:0.76,y:3.05+i*0.72,w:0.33,h:0.33,line:{color:"E5B611"},fill:{color:"E5B611"}});s.addText(String(p).slice(0,110),{x:1.3,y:3+i*0.72,w:10.7,h:0.58,fontFace:"Arial",fontSize:19,color:"000000",margin:0})});
+s.addText("PUBLIC BRAND REFERENCE / APPROVED TEMPLATE PENDING",{x:0.75,y:7.0,w:11.5,h:0.24,fontSize:9,color:"555555",margin:0});
+const out=flag("--out","output/deck.pptx");fs.mkdirSync(path.dirname(out),{recursive:true});
+await pptx.writeFile({fileName:out});console.log("Created "+out+" — rendered visual and template review required");

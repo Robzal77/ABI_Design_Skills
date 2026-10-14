@@ -1,0 +1,19 @@
+{
+  "title": "AI CoE — Design Skills Demonstration",
+  "audience": "Internal design reviewers",
+  "purpose": "Demonstrate multi-format artifact production",
+  "headline": "One approved design language, many formats",
+  "eyebrow": "ILLUSTRATIVE DEMO",
+  "points": [
+    "Reusable design principles",
+    "Editable source-first artifacts",
+    "Human review before distribution"
+  ],
+  "metrics": [],
+  "steps": [
+    "Brief",
+    "Design",
+    "Build",
+    "Review"
+  ]
+}

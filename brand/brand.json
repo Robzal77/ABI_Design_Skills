@@ -1,0 +1,36 @@
+{
+  "profile": "AB InBev corporate — public Creative Hub reference",
+  "status": "public_guidance_verified_internal_template_pending",
+  "source": "https://brandworld.ab-inbev.com/color",
+  "logoSource": "https://brandworld.ab-inbev.com/logo",
+  "colors": {
+    "black": "#000000",
+    "white": "#FFFFFF",
+    "gold": "#E5B611",
+    "lightGold": "#F5E003",
+    "darkGold": "#D1A33C",
+    "lightGrey": "#EFEFEF",
+    "darkGrey": "#C7C7C7",
+    "red": "#921A28",
+    "blue": "#325A6D",
+    "beige": "#D69E77",
+    "green": "#959B7B",
+    "lightRed": "#E88475",
+    "brown": "#3F1F14"
+  },
+  "primary": {
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "accent": "#E5B611"
+  },
+  "typography": {
+    "heading": null,
+    "body": null,
+    "note": "Official type families are not established from the color guide; use accessible system fallbacks in previews."
+  },
+  "assets": {
+    "logo": null,
+    "template": null
+  },
+  "productionApproved": false
+}
