@@ -39,3 +39,6 @@ Read [Creative Hub asset catalog](brand/ASSET_CATALOG.md) and its machine-readab
 
 ## User-provided PowerPoint design reference
 The corporate Sustainability / CEA / BrewHub PPT has been inspected for structure and design conventions. See [reference analysis](brand/references/sustainability-cea-brewhub-2026/REFERENCE.md), which catalogues 49 PowerPoint layout definitions, observed fonts, color scheme and reusable patterns. The original deck is **not stored in GitHub**; its images and private content are not redistributed.
+
+### Inspect future reference PPTX decks
+Install optional inspection dependency: `python -m pip install -r requirements-inspection.txt`. Then run `python scripts/inspect_pptx.py "reference.pptx" --out output/reference-metadata.json`. The script captures dimensions, theme, layout names, font names and shape statistics, **not** slide contents, speaker notes, or embedded image files. Review the local output before sharing or committing it.
