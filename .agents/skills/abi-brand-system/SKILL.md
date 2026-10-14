@@ -18,3 +18,6 @@ Follow AGENTS.md and brand/PROVENANCE.md. Do not invent claims, assets, approval
 
 ## Official resource catalog
 Read `brand/asset-catalog.json` for exact source classes and status: official logo variants; Avantt typography; gold gradient; symbol curves; texture; photo categories/treatments; UI kit in corporate SharePoint; and corporate application examples. Do not suggest files are locally available when `assetStatus` indicates references only. Open `brand/ASSET_INTAKE.md` before accepting any corporate binary. Use `python scripts/audit_asset_catalog.py` for catalog structure validation.
+
+## Internal PowerPoint design evidence
+Read the user-supplied deck analysis at `brand/references/sustainability-cea-brewhub-2026/REFERENCE.md`. It validates observed corporate color tokens and provides layout archetypes. It does not approve Arial/Calibri as ABI's font nor license screenshots and images. Apply only the relevant patterns and make audience-specific, format-specific compositions.
