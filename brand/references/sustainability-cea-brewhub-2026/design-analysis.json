@@ -1,0 +1,415 @@
+{
+  "schemaVersion": "1.0.0",
+  "referenceId": "sustainability-cea-brewhub-2026",
+  "fileName": "Reference ppt for ux.pptx",
+  "fileSHA256": "24cd0ae2c5484a654721032b32f2c1989588dbe32ce479fd73170d1f1f22a742",
+  "sourceStatus": "provided_in_conversation_not_committed",
+  "classification": "user-provided corporate deck; visual reference and theme source; NOT confirmed official master template",
+  "privacy": "metadata and archetypes only; original deck/media/slide text not copied to GitHub",
+  "slideDimensionsInches": {
+    "width": 13.333,
+    "height": 7.5
+  },
+  "slideCount": 24,
+  "visibleSlideCount": 21,
+  "hiddenSlideIndices": [
+    21,
+    22,
+    23
+  ],
+  "masters": 1,
+  "layoutCount": 49,
+  "media": {
+    "pictureOccurrences": 48,
+    "mediaFilesInPackage": 55
+  },
+  "theme": {
+    "majorLatinFont": "Arial",
+    "minorLatinFont": "Arial",
+    "colors": {
+      "dark1": "#000000",
+      "light1": "#FFFFFF",
+      "dark2": "#0E2841",
+      "light2": "#E8E8E8",
+      "accent1": "#F5E003",
+      "accent2": "#E5B611",
+      "accent3": "#D1A33C",
+      "accent4": "#32596D",
+      "accent5": "#959B7B",
+      "accent6": "#921A28"
+    },
+    "fontUsageObserved": [
+      "Arial",
+      "Calibri",
+      "Montserrat",
+      "Aptos"
+    ],
+    "caution": "Observed fonts differ from Creative Hub's stated Avantt official typeface. Extracted theme is a deck-specific implementation, not an authority to override official typography."
+  },
+  "layoutFamilies": [
+    {
+      "name": "Title",
+      "availableLayouts": [
+        "Title slide 1",
+        "Title slide 2",
+        "Title slide 3"
+      ],
+      "usage": "Hero, cover, theme and speaker positioning"
+    },
+    {
+      "name": "Agenda",
+      "availableLayouts": [
+        "Agenda "
+      ],
+      "usage": "Numbered sections and navigation"
+    },
+    {
+      "name": "Plain content",
+      "availableLayouts": [
+        "Plain Content Slide 1",
+        "Plain Content Slide - white 1",
+        "Plain Content Slide 2",
+        "Plain Content Slide - white 2",
+        "Plain Content Slide 3",
+        "Plain Content Slide - white 3",
+        "Plain Content Slide 4",
+        "Plain Content Slide - white 4"
+      ],
+      "usage": "Versatile dark and white content compositions"
+    },
+    {
+      "name": "Designed content",
+      "availableLayouts": [
+        "Designed Content slide 1",
+        "Designed Content slide 2",
+        "Designed Content slide 3",
+        "Designed Content slide 4",
+        "Designed Content slide 5",
+        "1_Designed Content slide 5",
+        "Designed Content slide 6",
+        "Designed Content slide 7",
+        "Designed Content slide 8",
+        "Designed Content slide 9"
+      ],
+      "usage": "Mixed images, cards and storytelling"
+    },
+    {
+      "name": "Milestones / launches",
+      "availableLayouts": [
+        "Project Go live 1",
+        "Project Go live 2",
+        "Project Go live 3",
+        "Project Go live 4"
+      ],
+      "usage": "Product milestones"
+    },
+    {
+      "name": "Recognition",
+      "availableLayouts": [
+        "Nominations",
+        "Team Awards",
+        "Individual Awards",
+        "People ON The Move",
+        "Birthday Template",
+        "Nominations Title "
+      ],
+      "usage": "People and award communications"
+    },
+    {
+      "name": "Mocks / miscellaneous",
+      "availableLayouts": [
+        "Mockup slide 1",
+        "Mockup slide 2",
+        "Plain slide 1",
+        "2_Plain slide 1",
+        "3_Plain slide 1",
+        "Plain slide 2",
+        "What are aleads upto Title",
+        "1_What are aleads upto Title",
+        "2_What are aleads upto Title",
+        "3_What are aleads upto Title",
+        "4_What are aleads upto Title"
+      ],
+      "usage": "UI reviews and internal communications"
+    },
+    {
+      "name": "Section and close",
+      "availableLayouts": [
+        "Section divider 1",
+        "Section divider 2",
+        "Section divider 3",
+        "Thank you slide",
+        "Big Statement 3"
+      ],
+      "usage": "Section pacing, summary, final thought"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "cover-split-photo",
+      "visibleExampleSlides": [
+        1
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter",
+        "graphics"
+      ],
+      "elements": [
+        "high-contrast near-black panel",
+        "brand-yellow headline accent",
+        "large photo occupying opposite half",
+        "short date/sign-off"
+      ],
+      "guardrails": [
+        "licensed relevant image",
+        "no text over image without adequate contrast"
+      ]
+    },
+    {
+      "id": "numbered-agenda",
+      "visibleExampleSlides": [
+        2
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter"
+      ],
+      "elements": [
+        "numbered section list",
+        "strong vertical rhythm"
+      ],
+      "guardrails": [
+        "avoid excessive agenda depth"
+      ]
+    },
+    {
+      "id": "section-divider",
+      "visibleExampleSlides": [
+        3,
+        9,
+        13
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter",
+        "graphics"
+      ],
+      "elements": [
+        "high-contrast short title",
+        "negative space"
+      ],
+      "guardrails": [
+        "one clear transition message"
+      ]
+    },
+    {
+      "id": "scoreboard-insights",
+      "visibleExampleSlides": [
+        4
+      ],
+      "mediums": [
+        "ppt",
+        "powerbi",
+        "newsletter"
+      ],
+      "elements": [
+        "ranked small table",
+        "narrative insights",
+        "priority statement",
+        "performance status colors"
+      ],
+      "guardrails": [
+        "colors must express meaning, avoid invented numbers"
+      ]
+    },
+    {
+      "id": "issues-summary",
+      "visibleExampleSlides": [
+        5
+      ],
+      "mediums": [
+        "ppt",
+        "powerbi",
+        "newsletter"
+      ],
+      "elements": [
+        "hero metrics",
+        "issue bucket groups",
+        "interpretive conclusion"
+      ],
+      "guardrails": [
+        "numbers must reconcile"
+      ]
+    },
+    {
+      "id": "three-stage-status",
+      "visibleExampleSlides": [
+        6
+      ],
+      "mediums": [
+        "ppt",
+        "powerbi",
+        "newsletter"
+      ],
+      "elements": [
+        "complete/in-progress/pending columns",
+        "status highlights"
+      ],
+      "guardrails": [
+        "status semantics consistent"
+      ]
+    },
+    {
+      "id": "process-and-screenshot",
+      "visibleExampleSlides": [
+        7,
+        17
+      ],
+      "mediums": [
+        "ppt",
+        "diagrams",
+        "newsletter"
+      ],
+      "elements": [
+        "brief summary",
+        "annotated product screenshot or process",
+        "expected actions"
+      ],
+      "guardrails": [
+        "screenshots must be legible in final output"
+      ]
+    },
+    {
+      "id": "ownership-risk-grid",
+      "visibleExampleSlides": [
+        8
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter",
+        "diagrams"
+      ],
+      "elements": [
+        "four owner areas",
+        "status indicators",
+        "risk and expected outcome footer"
+      ],
+      "guardrails": [
+        "each action needs owner/status"
+      ]
+    },
+    {
+      "id": "dense-roadmap",
+      "visibleExampleSlides": [
+        10
+      ],
+      "mediums": [
+        "ppt",
+        "diagrams",
+        "powerbi"
+      ],
+      "elements": [
+        "timeline across months",
+        "workstreams and progress colors"
+      ],
+      "guardrails": [
+        "high-density slide requires split/zoom appendix; source example is too dense for default executive presentation"
+      ]
+    },
+    {
+      "id": "usage-metrics-snapshot",
+      "visibleExampleSlides": [
+        12,
+        16
+      ],
+      "mediums": [
+        "ppt",
+        "powerbi",
+        "newsletter"
+      ],
+      "elements": [
+        "KPI cards",
+        "chart/screenshot grid",
+        "key takeaways"
+      ],
+      "guardrails": [
+        "convert small screenshots to native charts when source data available"
+      ]
+    },
+    {
+      "id": "sprint-matrix",
+      "visibleExampleSlides": [
+        15
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter",
+        "powerbi"
+      ],
+      "elements": [
+        "workstream",
+        "current sprint",
+        "next two sprints"
+      ],
+      "guardrails": [
+        "avoid sub-12pt operational text on leadership slides"
+      ]
+    },
+    {
+      "id": "photo-closure",
+      "visibleExampleSlides": [
+        18
+      ],
+      "mediums": [
+        "ppt",
+        "graphics"
+      ],
+      "elements": [
+        "full-bleed photo",
+        "dark overlay",
+        "bold closure statement"
+      ],
+      "guardrails": [
+        "photography rights",
+        "contrast for text"
+      ]
+    },
+    {
+      "id": "one-page-project-brief",
+      "visibleExampleSlides": [
+        19
+      ],
+      "mediums": [
+        "ppt",
+        "newsletter",
+        "graphics"
+      ],
+      "elements": [
+        "objective",
+        "approvals",
+        "deliverables",
+        "timeline",
+        "exceptions"
+      ],
+      "guardrails": [
+        "split dense text and avoid unreadable exceptions"
+      ]
+    }
+  ],
+  "nonNegotiables": [
+    "Use exact verified official palette/tokens, not sampled screenshot approximations for corporate identity",
+    "Use official licensed font when available; fallback must be visibly flagged, never falsely described as Avantt",
+    "Design should adapt to audience and artifact; do not replicate one slide style everywhere",
+    "Use a readable grid and enforce text legibility; preserve negative space",
+    "For Power BI preserve semantic relationships, use native visuals whenever possible",
+    "For PPT prefer native editable shapes/diagrams over screenshots",
+    "Never extract or redistribute embedded original imagery/logos from this source without specific approval"
+  ],
+  "inspections": {
+    "structural": "inspected locally with python-pptx",
+    "renderedVisual": "examined representative slide previews",
+    "generatorRegression": "not yet completed",
+    "assetLicensing": "original deck kept outside git"
+  }
+}
