@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogStatus": "reference_registry_not_asset_download",
+  "owner": "ABI Design Skills",
+  "officialSource": "https://brandworld.ab-inbev.com/",
+  "termsUrl": "https://brandworld.ab-inbev.com/terms-conditions",
+  "assetReusePolicy": "No site image, logo, font, photograph, template, or UI-kit binary is copied without explicit use rights and authorized access.",
+  "items": [
+    {
+      "id": "corporate-ui-kit",
+      "category": "toolkit",
+      "title": "Brand World UI kit",
+      "sourceUrl": "https://brandworld.ab-inbev.com/resources-0",
+      "accessUrl": "https://anheuserbuschinbev.sharepoint.com/sites/BrandWorld/Document/Forms/AllItems.aspx",
+      "assetStatus": "restricted_download_pending",
+      "rights": "company_access_and_asset_permission_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Official resource link resolves to AB InBev SharePoint; exact files and usage permissions have not been inspected."
+    },
+    {
+      "id": "logo-full",
+      "category": "logo",
+      "title": "AB InBev symbol + wordmark",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "reference_only",
+      "rights": "approved_original_artwork_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "web"
+      ],
+      "notes": "Use an authorized original artwork file. Approved gold/black/white versions, equal clear space based on symbol, favored top-left or footer sign-off. Never redraw, distort or recolor."
+    },
+    {
+      "id": "logo-symbol",
+      "category": "logo",
+      "title": "AB InBev symbol and shorthand",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "reference_only",
+      "rights": "approved_original_artwork_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Only sanctioned symbol artwork. Do not treat a screenshot as the master logo."
+    },
+    {
+      "id": "logo-expressive",
+      "category": "logo",
+      "title": "Expressive symbol variations",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "special_permission_required",
+      "rights": "brand_and_marketing_team_special_permission",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Expressive reworks of the symbol are explicitly restricted to special approval; reject by default."
+    },
+    {
+      "id": "brand-tagline",
+      "category": "identity",
+      "title": "Corporate tagline treatment",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "reference_only",
+      "rights": "brand_use_review_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Tagline often used under logo or as sign-off. Check exact approved lockup."
+    },
+    {
+      "id": "avantt",
+      "category": "font",
+      "title": "Avantt corporate typography",
+      "sourceUrl": "https://brandworld.ab-inbev.com/typography",
+      "assetStatus": "licensed_file_pending",
+      "rights": "font_license_required_no_font_files_in_repository",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Primary AB InBev typeface. Verify installed license and legal font embedding separately for every medium."
+    },
+    {
+      "id": "type-hierarchy",
+      "category": "guidelines",
+      "title": "Ideal stack, headline graphic devices and text/color",
+      "sourceUrl": "https://brandworld.ab-inbev.com/typography",
+      "assetStatus": "guidance_recorded",
+      "rights": "no_redistribution_of_site_illustrations",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Use clear hierarchy; at most one emphasized graphic device per headline; ensure contrast."
+    },
+    {
+      "id": "core-palette",
+      "category": "tokens",
+      "title": "Core, secondary, tertiary palette and accessibility",
+      "sourceUrl": "https://brandworld.ab-inbev.com/color",
+      "assetStatus": "tokens_recorded",
+      "rights": "reference_rules_only",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Machine-readable values in brand/brand.json; tertiary colors mostly limited to chart/data encodings."
+    },
+    {
+      "id": "gold-gradient",
+      "category": "graphic",
+      "title": "Cheers gold gradient",
+      "sourceUrl": "https://brandworld.ab-inbev.com/color",
+      "assetStatus": "reference_only",
+      "rights": "official_gradient_asset_or_verified_spec_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Core brand visual; no guessed exact gradient stop positions. Use approved image/vector or confirmed gradient specifications."
+    },
+    {
+      "id": "symbol-curves",
+      "category": "graphic",
+      "title": "Dynamic symbol-derived curve compositions",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "reference_only",
+      "rights": "approved_composition_asset_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Graphic compositions are based on enlarged curves of ABI symbol; do not trace protected site examples as distributable masters."
+    },
+    {
+      "id": "textures",
+      "category": "graphic",
+      "title": "Pattern and texture treatment",
+      "sourceUrl": "https://brandworld.ab-inbev.com/logo",
+      "assetStatus": "reference_only",
+      "rights": "approved_pattern_asset_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Use patterns sparingly and mainly where text density is low."
+    },
+    {
+      "id": "photo-lifestyle",
+      "category": "photography",
+      "title": "Lifestyle / togetherness / golden moments",
+      "sourceUrl": "https://brandworld.ab-inbev.com/photography",
+      "assetStatus": "reference_only",
+      "rights": "image_license_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Premium, optimistic celebratory interactions; select image only when meaningful to message."
+    },
+    {
+      "id": "photo-craft",
+      "category": "photography",
+      "title": "Behind-the-scenes / process / brewing",
+      "sourceUrl": "https://brandworld.ab-inbev.com/photography",
+      "assetStatus": "reference_only",
+      "rights": "image_license_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Close details showcasing process and craft; avoid generic unlicensed stock substitutions."
+    },
+    {
+      "id": "photo-sustainability",
+      "category": "photography",
+      "title": "Sustainability / people / environment",
+      "sourceUrl": "https://brandworld.ab-inbev.com/photography",
+      "assetStatus": "reference_only",
+      "rights": "image_license_required",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Environmental and social commitment story, based on factual initiatives."
+    },
+    {
+      "id": "photo-treatments",
+      "category": "photography",
+      "title": "High-contrast monochrome and gold colorized images",
+      "sourceUrl": "https://brandworld.ab-inbev.com/photography",
+      "assetStatus": "guidance_recorded",
+      "rights": "requires_licensed_source_photo",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "web"
+      ],
+      "notes": "Official reference mentions high-contrast monochrome and multiply/gold-gradient coloring. Obtain rights for source photography."
+    },
+    {
+      "id": "application-gallery",
+      "category": "examples",
+      "title": "Official brand application examples",
+      "sourceUrl": "https://brandworld.ab-inbev.com/applications",
+      "assetStatus": "reference_only",
+      "rights": "site_artwork_not_redistributable_without_permission",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "powerbi",
+        "graphics",
+        "diagrams",
+        "web"
+      ],
+      "notes": "Inspiration/QA references only. Actual images are not copied into repo."
+    },
+    {
+      "id": "internal-ppt-template",
+      "category": "template",
+      "title": "Approved internal corporate PPT template",
+      "sourceUrl": null,
+      "assetStatus": "awaiting_user_upload",
+      "rights": "user_confirmed_company_approved_asset_upload_pending",
+      "formats": [
+        "ppt",
+        "newsletter",
+        "graphics",
+        "diagrams"
+      ],
+      "notes": "User will provide. Extract slide masters, logo artwork, dimensions, typography and layout conventions after receipt."
+    }
+  ]
+}
