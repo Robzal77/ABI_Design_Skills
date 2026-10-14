@@ -33,3 +33,6 @@ See `brand/brand.json` and `brand/PROVENANCE.md`. This repository stores *public
 
 ## Development
 Work on `feat/universal-visual-skills-v1`. Review output and tests, then propose a PR. See `docs/architecture.md`.
+
+## Corporate asset library
+Read [Creative Hub asset catalog](brand/ASSET_CATALOG.md) and its machine-readable [17-entry manifest](brand/asset-catalog.json). It indexes logo versions, photography, type, colors, patterns, gradient, and the official SharePoint UI kit resource link. **Reference links are not downloaded artwork.** Use [asset intake checklist](brand/ASSET_INTAKE.md) for authorized corporate files and run `python scripts/audit_asset_catalog.py` for catalog consistency. Do not bundle licensed fonts or protected images merely because they appear online.
